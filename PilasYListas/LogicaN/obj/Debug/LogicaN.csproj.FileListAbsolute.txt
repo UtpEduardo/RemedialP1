@@ -1,0 +1,11 @@
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\bin\Debug\LogicaN.dll
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\bin\Debug\LogicaN.pdb
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\bin\Debug\ClaseDAL.dll
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\bin\Debug\Entidades.dll
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\bin\Debug\ClaseDAL.pdb
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\bin\Debug\Entidades.pdb
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\obj\Debug\LogicaN.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\obj\Debug\LogicaN.csproj.CopyComplete
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\obj\Debug\LogicaN.dll
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\obj\Debug\LogicaN.pdb
+C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\LogicaN\obj\Debug\LogicaN.csproj.AssemblyReference.cache
