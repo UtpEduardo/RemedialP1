@@ -22,9 +22,12 @@ namespace PilasYListas
             if (Session["ca"] != null)
             {
                 ca = (SolucionR)Session["ca"];
-                pilaNum = (Stack<int>)Session["ca"];
+                
             }
-
+            if (Session["pilanNum"] != null)
+            {
+                pilaNum = (Stack<int>)Session["pilaNum"];
+            }
             
         }
 
@@ -42,7 +45,7 @@ namespace PilasYListas
             TextBox2.Text = "";
 
             Session["ca"] = ca;
-            Session["ca"] = pilaNum;
+            Session["pilaNum"] = pilaNum;
         }
 
         protected void Button2_Click(object sender, EventArgs e)
