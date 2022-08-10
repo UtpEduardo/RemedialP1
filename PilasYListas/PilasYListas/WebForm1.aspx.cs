@@ -22,18 +22,18 @@ namespace PilasYListas
             if (Session["ca"] != null)
             {
                 ca = (SolucionR)Session["ca"];
+                pilaNum = (Stack<int>)Session["ca"];
+            }
+            //if (Session["pilanNum"] != null)
+            //{
                 
-            }
-            if (Session["pilanNum"] != null)
-            {
-                pilaNum = (Stack<int>)Session["pilaNum"];
-            }
+            //}
             
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-             
+
             pilaNum.Push(int.Parse(TextBox1.Text));
 
             Label2.Text = ca.agregarF(new NudoDoble(new Datos() {
@@ -44,8 +44,10 @@ namespace PilasYListas
             TextBox1.Text = "";
             TextBox2.Text = "";
 
+            Session["ca"] = pilaNum;
+      
             Session["ca"] = ca;
-            Session["pilaNum"] = pilaNum;
+            
         }
 
         protected void Button2_Click(object sender, EventArgs e)
