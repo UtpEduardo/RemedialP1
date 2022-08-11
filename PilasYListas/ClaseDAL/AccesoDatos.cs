@@ -26,7 +26,7 @@ namespace ClaseDAL
             else
             {
                 fin = Ancla;
-                while(fin.siguiente!= null)
+                while(fin.siguiente != null)
                 {
                     fin = fin.siguiente;
                 }
@@ -47,7 +47,6 @@ namespace ClaseDAL
             while(t != null)
             {
                 resultados[x] = t.DatoG.MostrarInfo();
-                x++;
                 t = t.siguiente;
             }
             return resultados;
@@ -99,5 +98,7 @@ namespace ClaseDAL
             }
             return salida;
         }
+
+        
     }
 }

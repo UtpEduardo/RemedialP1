@@ -8,70 +8,70 @@ using System.Web.UI.WebControls;
 using Entidades;
 using LogicaN;
 
-
 namespace PilasYListas
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-
-        
-        SolucionR ca = new SolucionR();
-        Stack<int> pilaNum = new Stack<int>();
+        SolucionR LN = null;
+        Stack<int> idNum = new Stack<int>();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["ca"] != null)
+            LN = new SolucionR();
+            if(Session["LN"] != null)
             {
-                ca = (SolucionR)Session["ca"];
-                pilaNum = (Stack<int>)Session["ca"];
+                LN = (SolucionR)Session["LN"];
             }
-            //if (Session["pilanNum"] != null)
-            //{
-                
-            //}
-            
+
+            if(Session["pila"] != null)
+            {
+                idNum = (Stack<int>)Session["pila"];
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            idNum.Push(Int16.Parse(TextBox1.Text));
 
-            pilaNum.Push(int.Parse(TextBox1.Text));
-
-            Label2.Text = ca.agregarF(new NudoDoble(new Datos() {
-                num = pilaNum,
-                DaInf = TextBox2.Text
-                }));
+            Label2.Text = LN.agregarF(new NudoDoble(new Datos()
+            {
+                num = idNum
+            }));
 
             TextBox1.Text = "";
-            TextBox2.Text = "";
 
-            Session["ca"] = pilaNum;
-      
-            Session["ca"] = ca;
+            Session["pila"] = idNum;
+            Session["LN"] = LN;
             
+
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            int[] pilaM = new int[pilaNum.Count];
-            pilaNum.CopyTo(pilaM, 0);
+            int[] copia = new int[idNum.Count];
+            idNum.CopyTo(copia, 0);
 
             ListBox1.Items.Clear();
-
-            foreach (int a in pilaM)
+            
+            foreach (int a in copia)
             {
                 ListBox1.Items.Add(a + "");
             }
 
+            Session["pila"] = idNum;
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            reBusqueda.Text = ca.buscar(Int16.Parse(TextBox3.Text));
+            Label4.Text = LN.buscar(Int16.Parse(TextBox2.Text));
+
+            Session["LN"] = LN;
         }
 
         protected void Button4_Click(object sender, EventArgs e)
         {
            
+            Label4.Text = LN.eliminatr(Int16.Parse(TextBox2.Text));
+            Session["LN"] = LN;
         }
     }
 }

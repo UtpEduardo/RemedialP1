@@ -7,3 +7,12 @@ C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\ClaseDAL\obj\Debug\Cla
 C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.dll
 C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.pdb
 C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\bin\Debug\ClaseDAL.dll
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\bin\Debug\ClaseDAL.pdb
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\bin\Debug\Entidades.dll
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\bin\Debug\Entidades.pdb
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.csproj.CopyComplete
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.dll
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\ClaseDAL\obj\Debug\ClaseDAL.pdb

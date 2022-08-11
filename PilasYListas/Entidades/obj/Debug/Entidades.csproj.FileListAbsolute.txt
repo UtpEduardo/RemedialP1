@@ -4,3 +4,9 @@ C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\Entidades\obj\Debug\En
 C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\Entidades\obj\Debug\Entidades.dll
 C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\Entidades\obj\Debug\Entidades.pdb
 C:\Users\Lenovo_AIO_11\Documents\RemedialPr1\PilasYListas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\Entidades\bin\Debug\Entidades.dll
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\Entidades\obj\Debug\Entidades.dll
+C:\Users\Lenovo_AIO_11\Documents\Remedial\RemedialP1\PilasYListas\Entidades\obj\Debug\Entidades.pdb
